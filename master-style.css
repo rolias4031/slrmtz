@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, a {
+  color: rgb(30,30,30);
+}
+
+body {
+  background-color: rgba(253,253,253,1.0);
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.col-width-lock {
+  max-width: 750px;
+}
+
+.col-width-lock-index {
+  max-width: 550px;
+}
+
+/* font classes */
+
+.font-author {
+  color: rgb(140,140,140);
+  font-style: normal;
+  font-weight: 300;
+  white-space: nowrap;
+}
+
+.font-body {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.font-blog-date {
+  color: rgb(140,140,140);
+  font-family: "IBM Plex Sans", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 300;
+  white-space: nowrap;
+}
+
+.font-brand {
+  color: rgb(30,30,30);
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.font-about-head {
+  font-size: 44px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.font-head {
+  font-size: 34px;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.font-nav-text-2 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.font-post {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.font-post-2 {
+  font-family: "IBM Plex Sans", serif;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.jumptarget::before {
+  content:"";
+  display:block;
+  height: 40px; /* fixed header height*/
+  margin: -40px 0 0; /* negative fixed header height */
+}
+
+/* Hover and pseudo states */
+
+.blog-post-link:hover {
+  color: rgb(30,30,30);
+  text-decoration: underline;
+}
+
+.style-brand:hover {
+  color: rgba(30,30,30,1.0);
+  text-decoration: underline;
+}
+
+.style-nav-text-2:hover {
+  text-decoration: underline;
+  color: rgba(30,30,30,1.0);
+}
+
+.repo-link:hover {
+  color: rgba(30,30,30,1.0);
+  text-decoration: underline;
+}
+
+/* positioning and layout classes */
+
+.repo-link {
+  font-weight: 400;
+}
+
+.repo-left, .repo-mid {
+  border-right: 1px solid rgb(235,235,235);
+  padding-right: 10px;
+}
+
+.repo-mid, .repo-right {
+  padding-left: 10px;
+}
+
+.style-about {
+  line-height: 1.4;
+}
+
+.style-blog-date {
+  margin-bottom: 25px;
+}
+
+.style-body {
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 1.2;
+}
+
+.style-body > div {
+  margin-bottom: 10px;
+}
+
+.style-body-index {
+  line-height: 1.7;
+  padding-bottom: 20px;
+}
+
+.style-brand {
+  /* color: rgb(30,30,30); */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.style-footer {
+  height: 150px;
+  margin-top: 20px;
+}
+
+.style-head {
+  padding-top: 20px;
+  margin-bottom: 15px;
+}
+
+.style-nav {
+  padding-right: 8vw;
+  padding-left: 8vw;
+}
+
+.style-nav-blog {
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.style-nav-text-2 {
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+.style-post-body {
+  line-height: 1.75;
+}
+
+.style-shelf-head {
+  border-bottom: 1px solid rgb(235,235,235);
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.style-shelf-links {
+  z-index: 100;
+}
+
+.style-title {
+  line-height: 1.3;
+}
+
+.style-top-index {
+  margin-top: 90px;
+  margin-bottom: 60px;
+}
+
+/* Miscellaneous classes, one-offs for specific purposes */
+
+.top-container {
+  margin-top: 60px;
+}
+
+@media only screen and (max-width: 414px) {
+
+  .font-about-head {
+    font-size: 36px;
+  }
+
+  .font-body {
+    font-size: 18px;
+  }
+
+  .font-head {
+    font-size: 28px;
+  }
+
+  .font-nav-text-2 {
+    font-size: 17px;
+  }
+
+  .font-brand {
+    font-size: 17px;
+  }
+
+  .font-post {
+    font-size: 18px;
+  }
+
+  .top-container {
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+
+  .font-about-head {
+    font-size: 32px;
+  }
