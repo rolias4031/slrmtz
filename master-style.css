@@ -35,7 +35,7 @@ a {
 
 .font-body {
   font-family: "Alegreya Sans", sans-serif;
-  font-size: 20px;
+  font-size: 21px;
   font-weight: 400;
 }
 
@@ -217,15 +217,15 @@ a {
 @media only screen and (max-width: 414px) {
 
   .font-about-head {
-    font-size: 37px;
+    font-size: 36px;
   }
 
   .font-body {
-    font-size: 19px;
+    font-size: 20px;
   }
 
   .font-head {
-    font-size: 37px;
+    font-size: 36px;
   }
 
   .font-nav-text-2 {
@@ -237,7 +237,7 @@ a {
   }
 
   .font-post {
-    font-size: 19px;
+    font-size: 20px;
     line-height: 1.65;
   }
 
@@ -254,9 +254,9 @@ a {
 @media only screen and (max-width: 375px) {
 
   .font-about-head {
-    font-size: 37px;
+    font-size: 36px;
   }
 
   .font-head {
-    font-size: 37px;
+    font-size: 36px;
   }
