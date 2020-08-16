@@ -59,7 +59,7 @@ a {
 .font-about-head {
   font-size: 45px;
   font-family: "Alegreya", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
 }
 
@@ -77,9 +77,9 @@ a {
 }
 
 .font-post {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Alegreya Sans", sans-serif;
   font-size: 21px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.85;
 }
 
@@ -229,11 +229,11 @@ a {
   }
 
   .font-nav-text-2 {
-    font-size: 17px;
+    font-size: 18px;
   }
 
   .font-brand {
-    font-size: 17px;
+    font-size: 18px;
   }
 
   .font-post {
