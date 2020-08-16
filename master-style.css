@@ -34,14 +34,14 @@ a {
 }
 
 .font-body {
-  font-family: "Roboto", sans-serif;
-  font-size: 19px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 21px;
   font-weight: 400;
 }
 
 .font-blog-date {
   color: rgb(140,140,140);
-  font-family: "Roboto", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-style: normal;
   font-size: 16px;
   font-weight: 300;
@@ -50,34 +50,34 @@ a {
 
 .font-brand {
   color: rgb(30,30,30);
-  font-family: "Roboto", sans-serif;
+  font-family: "Alegreya Sans SC", sans-serif;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 1px;
 }
 
 .font-about-head {
-  font-size: 46px;
-  font-family: "EB Garamond", sans-serif;
-  font-weight: 500;
+  font-size: 45px;
+  font-family: "Alegreya", sans-serif;
+  font-weight: 400;
   font-style: normal;
 }
 
 .font-head {
-  font-size: 46px;
-  font-family: "EB Garamond", serif;
-  font-weight: 500;
+  font-size: 45px;
+  font-family: "Alegreya", serif;
+  font-weight: 400;
   font-style: normal;
 }
 
 .font-nav-text-2 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Alegreya Sans SC", sans-serif;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .font-post {
-  font-family: "Roboto", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 21px;
   font-weight: 400;
   line-height: 1.85;
@@ -190,9 +190,9 @@ a {
 .style-shelf-head {
   border-bottom: 1px solid rgb(235,235,235);
   margin-top: 10px;
-  margin-bottom: 5px;
+  margin-bottom: 6px;
   line-height: 1.1;
-  padding-bottom: 5px;
+  padding-bottom: 3px;
 }
 
 .style-shelf-links {
@@ -217,15 +217,15 @@ a {
 @media only screen and (max-width: 414px) {
 
   .font-about-head {
-    font-size: 40px;
+    font-size: 37px;
   }
 
   .font-body {
-    font-size: 18px;
+    font-size: 19px;
   }
 
   .font-head {
-    font-size: 38px;
+    font-size: 37px;
   }
 
   .font-nav-text-2 {
@@ -237,7 +237,7 @@ a {
   }
 
   .font-post {
-    font-size: 19px;
+    font-size: 20px;
     line-height: 1.65;
   }
 
@@ -254,9 +254,9 @@ a {
 @media only screen and (max-width: 375px) {
 
   .font-about-head {
-    font-size: 38px;
+    font-size: 37px;
   }
 
   .font-head {
-    font-size: 38px;
+    font-size: 37px;
   }
