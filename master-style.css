@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+html {
+  font-size: 10px;
+}
+
 body, a {
   color: rgb(30,30,30);
 }
@@ -27,7 +31,7 @@ a {
 /* font classes */
 
 .font-author {
-  color: rgb(150,150,150);
+  color: rgb(160,160,160);
   font-style: normal;
   font-weight: 400;
   white-space: nowrap;
@@ -35,15 +39,16 @@ a {
 
 .font-body {
   font-family: "Alegreya Sans", sans-serif;
-  font-size: 21px;
+  font-size: 2.2rem;
   font-weight: 400;
+  font-style: normal;
 }
 
 .font-blog-date {
-  color: rgb(150,150,150);
+  color: rgb(160,160,160);
   font-family: "Alegreya Sans", sans-serif;
   font-style: normal;
-  font-size: 15px;
+  font-size: 1.9rem;
   font-weight: 400;
   white-space: nowrap;
 }
@@ -51,34 +56,27 @@ a {
 .font-brand {
   color: rgb(30,30,30);
   font-family: "Alegreya Sans SC", sans-serif;
-  font-size: 18px;
+  font-size: 1.9rem;
   font-weight: 500;
   letter-spacing: 1px;
 }
 
-.font-about-head {
-  font-size: 45px;
-  font-family: "Alegreya", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
 .font-head {
-  font-size: 45px;
-  font-family: "Alegreya", serif;
+  font-size: 4.2rem;
+  font-family: "Alegreya Sans", serif;
   font-weight: 500;
   font-style: normal;
 }
 
-.font-nav-text-2 {
+.font-nav-text {
   font-family: "Alegreya Sans SC", sans-serif;
-  font-size: 18px;
+  font-size: 1.9rem;
   font-weight: 500;
 }
 
 .font-post {
-  font-family: "Alegreya Sans", sans-serif;
-  font-size: 21px;
+  font-family: "Alegreya", serif;
+  font-size: 2.2rem;
   font-weight: 400;
   line-height: 1.85;
 }
@@ -155,7 +153,7 @@ a {
 }
 
 .style-footer {
-  height: 150px;
+  height: 200px;
   margin-top: 20px;
 }
 
@@ -174,14 +172,14 @@ a {
   display: inline-block;
 }
 
-.style-nav-text-2 {
+.style-nav-text {
   padding-bottom: 2px;
   padding-top: 2px;
   line-height: 1;
   border-bottom: 2px solid rgba(253,253,253,1.0);
 }
 
-.style-nav-text-2:hover {
+.style-nav-text:hover {
   text-decoration: none;
   color: rgba(30,30,30,1.0);
   border-bottom: 2px solid rgb(30,30,30);
@@ -214,31 +212,27 @@ a {
   margin-top: 50px;
 }
 
-@media only screen and (max-width: 414px) {
-
-  .font-about-head {
-    font-size: 36px;
-  }
+@media only screen and (max-width: 415px) {
 
   .font-body {
-    font-size: 20px;
+    font-size: 2.0rem;
   }
 
   .font-head {
-    font-size: 36px;
+    font-size: 3.8rem;
   }
 
-  .font-nav-text-2 {
-    font-size: 18px;
+  .font-nav-text {
+    font-size: 1.8rem;
   }
 
   .font-brand {
-    font-size: 18px;
+    font-size: 1.8rem;
   }
 
   .font-post {
-    font-size: 20px;
-    line-height: 1.65;
+    font-size: 2.0rem;
+    line-height: 1.6;
   }
 
   .top-container {
@@ -253,10 +247,6 @@ a {
 
 @media only screen and (max-width: 375px) {
 
-  .font-about-head {
-    font-size: 36px;
-  }
-
   .font-head {
-    font-size: 36px;
+    font-size: 3.4rem;
   }
