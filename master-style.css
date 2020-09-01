@@ -31,24 +31,25 @@ a {
 /* font classes */
 
 .font-author {
-  color: rgb(160,160,160);
+  color: rgb(180,180,180);
   font-style: normal;
   font-weight: 400;
   white-space: nowrap;
+  font-family: "Crimson Text"
 }
 
 .font-body {
-  font-family: "Alegreya Sans", sans-serif;
-  font-size: 2.2rem;
+  font-family: "Crimson Text", sans-serif;
+  font-size: 2.0rem;
   font-weight: 400;
   font-style: normal;
 }
 
 .font-blog-date {
-  color: rgb(160,160,160);
+  color: rgb(180,180,180);
   font-family: "Alegreya Sans", sans-serif;
   font-style: normal;
-  font-size: 1.9rem;
+  font-size: 1.8rem;
   font-weight: 400;
   white-space: nowrap;
 }
@@ -56,29 +57,29 @@ a {
 .font-brand {
   color: rgb(30,30,30);
   font-family: "Alegreya Sans SC", sans-serif;
-  font-size: 1.9rem;
+  font-size: 1.7rem;
   font-weight: 500;
   letter-spacing: 1px;
 }
 
 .font-head {
-  font-size: 4.2rem;
+  font-size: 3.6rem;
   font-family: "Alegreya Sans", serif;
   font-weight: 500;
-  font-style: normal;
+  font-style: Normal;
 }
 
 .font-nav-text {
   font-family: "Alegreya Sans SC", sans-serif;
-  font-size: 1.9rem;
+  font-size: 1.7rem;
   font-weight: 500;
 }
 
 .font-post {
-  font-family: "Alegreya", serif;
-  font-size: 2.2rem;
+  font-family: "Crimson Text", serif;
+  font-size: 2.0rem;
   font-weight: 400;
-  line-height: 1.85;
+  line-height: 1.75;
 }
 
 .jumptarget::before {
@@ -160,6 +161,7 @@ a {
 .style-head {
   padding-top: 20px;
   margin-bottom: 15px;
+  padding-left: 0;
 }
 
 .style-nav {
@@ -188,9 +190,9 @@ a {
 .style-shelf-head {
   border-bottom: 1px solid rgb(235,235,235);
   margin-top: 10px;
-  margin-bottom: 6px;
+  margin-bottom: 7px;
   line-height: 1.1;
-  padding-bottom: 3px;
+  padding-bottom: 4px;
 }
 
 .style-shelf-links {
@@ -198,7 +200,7 @@ a {
 }
 
 .style-title {
-  line-height: 1.2;
+  line-height: 1.0;
 }
 
 .style-top-index {
@@ -219,15 +221,19 @@ a {
   }
 
   .font-head {
-    font-size: 3.8rem;
+    font-size: 3.4rem;
   }
 
   .font-nav-text {
+    font-size: 1.7rem;
+  }
+
+  .font-blog-date {
     font-size: 1.8rem;
   }
 
   .font-brand {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
   }
 
   .font-post {
